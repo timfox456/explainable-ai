@@ -15,18 +15,18 @@ Networks should be protected against such attacks in training.
 Robustness verifies are classified as complete or incomplete.  Complete robustness verification is computation expensive but allows
 verification without false positives.  Incomplete robustness allows false positives but are more scalable. 
 
-ERAN measures robustness against adverserial atack.  ERAN's contribution is providing a common framework for running several 
-different robustness metrics which take into account both complete and incomplete robustness verificaiton.
+ERAN measures robustness against adversarial attack.  ERAN's contribution is providing a common framework for running several 
+different robustness metrics which take into account both complete and incomplete robustness verification.
 
 
 ## ERAN Analysis
 
-ERAN combines the resuls of three robustness certifications:
+ERAN combines the results of three robustness certifications:
 
 **DeepZ** :  [DEEPZ](https://files.sri.inf.ethz.ch/website/papers/DeepZ.pdf) is a robustness certification that uses abstract Zonotope transformers to handle common activation functions in neural networks. This is an incomplete method that 
-takes into accout
+takes into account
 
-**DeepPoly** : [DeepPoply](https://files.sri.inf.ethz.ch/website/papers/DeepPoly.pdf) is a based on a domain that combines floating point Polyhedra with Intervals.
+**DeepPoly** : [DeepPoly](https://files.sri.inf.ethz.ch/website/papers/DeepPoly.pdf) is a based on a domain that combines floating point Polyhedra with Intervals.
 
 **RefineZono** [RefineZono](https://files.sri.inf.ethz.ch/website/papers/RefineZono.pdf) combines incomplete DeepZ analysis with some complete methods (MILP and LP solvers) for more precision.
 
@@ -50,6 +50,6 @@ python3 . --netname ../nets/pytorch/mnist/convBig__DiffAI.pyt \
 
 ## Conclusion
 
-ERAN is effective at providing an aggregated metric for robustness against adverserial attack by combingin both complete and incomplete verificaiton. It provides a 
+ERAN is effective at providing an aggregated metric for robustness against adversarial attack by combining both complete and incomplete verification. It provides a 
 python library to perform the robustness analysis.
 
