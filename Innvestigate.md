@@ -47,7 +47,7 @@ in order to provide for attribution.
 **GuidedBackprop**: [GuidedBackprop]is a network that provides attribution 
 
 **PatternNet/PatternAttribtution**: [PatternNet](https://arxiv.org/pdf/1705.05598.pdf) is a network yield a back-projection of the output image into the original image space.
-j
+
 **LRP**:  LRP is Layer-wise Relevance Propagation.    It means that gradients are backpropogated back to the input layer to display the contribution on a per-pixel
 basis as relevant to the input. 
 

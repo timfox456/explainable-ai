@@ -7,7 +7,11 @@ specifically for image recognition, classification, and similar problems.
 ## Problem
 
 The observation is that adversarial examples tend fall along the boundary between the learned decision
-boundary of the neural network and the human provided decision boundary
+boundary of the neural network and the human provided decision boundary.   In other words, these are
+the "boundary" cases.  Cases far from the decision boundary are clear-cut, and likely to be classified
+at a high rate of accuracy and thus resistant to adverserial attack.  However, cases close to the boundary
+are more "iffy" and therefore likely to have lower rates of classification accuracy and far more
+suceptible to adversierial attack.
 
 [DeepGame](./images/DeepGame1.png)
 
@@ -17,6 +21,9 @@ The DeepGame algorithm attempts to solve two problems:
 decision that is "safe" or not susceptible to adversarial attack.
 
 [](./images/DeepGame2.png)
+
+
+The observation that cases far from the learned decision boundary are resistant to adverserial attack.
 
 
 2. **The Feature Robustness Problem**. This problem attempts to find the features in an image most
