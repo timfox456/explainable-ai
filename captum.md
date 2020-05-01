@@ -2,19 +2,19 @@
 
 Captum is a a model interpretability framework for pytorch. 
 
-The [github repo](https://github.com/pytorch/captum) can be found here: https://github.com/pytorch/captum .
+The [GitHub repo](https://github.com/pytorch/captum) can be found here: https://github.com/pytorch/captum .
 
 Captum is part of the pytorch project.  And so it is very actively developed and able to 
 
 
 ## Problem
 
-Captum is an attribution libarary focused on visualization techniques for pytorch.   
+Captum is an attribution library focused on visualization techniques for pytorch.   
 
 
 ## Attribution Methods
 
-Captum Comes weith a wide Variety of attribution methods available:
+Captum Comes with a wide Variety of attribution methods available:
 
  * Primary Attribution: Evaluates contribution of each input feature to the output of a model.
  * Layer Attribution: Evaluates contribution of each neuron in a given layer to the output of the model.
@@ -68,7 +68,7 @@ Captum has a very extensive set of attribution algorithms and is built-into pyto
 
 Captum also includes a visualization capability called Captum Insights, which helps visualize the attribution,
 
-![](
+![](images/captum_insights.png)
 
 
 
@@ -84,5 +84,5 @@ There are some examples in the [Github repo](https://github.com/pytorch/cptum)
 ## Conclusion
 
 
-Captum has a wide variety of attribution algorth
+Captum has a wide variety of attribution algorithms
 

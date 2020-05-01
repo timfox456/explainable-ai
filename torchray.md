@@ -1,17 +1,17 @@
 # TorchRay
 
-TorchRay is a a visualization library aimed at the process of *attribution*, which is the problem of determining which part of the input images is responsibel for the value computed by a neural network.
+TorchRay is a a visualization library aimed at the process of *attribution*, which is the problem of determining which part of the input images is responsible for the value computed by a neural network.
 
 The [original whitepaper](https://arxiv.org/abs/1910.08485) informs of the 
 
-The [github repo](https://github.com/facebookresearch/TorchRay) can be found here: https://github.com/facebookresearch/TorchRay.
+The [GitHub repo](https://github.com/facebookresearch/TorchRay) can be found here: https://github.com/facebookresearch/TorchRay.
 
 TorchRay is, as the name implies, designed to work with pytorch and related libraries like torchvision.   pytorch is one of the most popular deep learning frameworks and is sponsored by Facebook.
 
 
 ## Problem
 
-TorchRay is an attribution libarary focused on visualization techniques for 
+TorchRay is an attribution library focused on visualization techniques for 
 
 
 ## TorchRay Analysis
@@ -33,7 +33,7 @@ takes into account
 These three are combined together with TorchRay to make a composite certification of robustness.
 
 
-We should note that the authors of TorchRay have made no contributions to their github repo in the last 7 months and that there appears to be only one contribution total (the inital one), which indicates the project may no longer be under active development.  In AI termms this is lengthy.
+We should note that the authors of TorchRay have made no contributions to their GitHub repo in the last 7 months and that there appears to be only one contribution total (the initial one), which indicates the project may no longer be under active development.  In AI terms this is lengthy.
 
 
 ## Using TorchRay
@@ -46,5 +46,5 @@ There are some examples in the [Github repo](https://github.com/facebookresearch
 
 ## Conclusion
 
-TorchRay seems most useful for its visualizalization capabilities. However as the project does not appear to be developed one may need to be careful relying on it.
+TorchRay seems most useful for its visualization capabilities. However as the project does not appear to be developed one may need to be careful relying on it.
 

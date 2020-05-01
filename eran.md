@@ -2,7 +2,7 @@
 
 ETH Robustness Analyzer for Neural Networks (ERAN) is analyzer to verify the resilience of a neural network against attacks.
 The [original whitepaper](https://files.sri.inf.ethz.ch/website/papers/DeepZ.pdf) is here: https://files.sri.inf.ethz.ch/website/papers/DeepZ.pdf .
-The github repo for ERAN can be found at : https://github.com/eth-sri/eran
+The GitHub repo for ERAN can be found at : https://github.com/eth-sri/eran
 
 ERAN has been tested on CNN networks trained for CIFAR10 and MNIST datasets.
 
