@@ -10,7 +10,8 @@ We will examine its use cases and why it is useful. The [whitepaper](https://arx
 ## Problem
 
 Neural networks are treated as black boxes.  The desire to have "explainable" AI has triggered a large number of 
-efforts to make explainable Machine Learning (XML). The way to describe this problem is attribution.  How can we attribute  There are a number of ways to do that. The two
+efforts to make explainable Machine Learning (XML). The way to describe this problem is attribution.  Attribution means that we want to identify exactly which
+parts of our input (usually, pixels in an image), can explain the output, for example a classification decision.  There are a number of ways to do that. The two
 most common classes of techniques are Gradient Attribution and Sensitivity.   Most of which compute the gradients
 on the original image in terms of the prediction.  Often, this designed to create a sensitivity mask which will show
 which pixels in the original image prove most predictive.
