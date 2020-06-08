@@ -28,6 +28,8 @@ Implementation Invariance means that even for different neural networks, the att
 The need is there to make a common interface and standard for various implementations of explainable methods, and bring them together in a common
 interface.  iNNvestigate provides a common python library to perform this.
 
+![](images/innvestigate.png)
+
 
 ## Implemented Methods
 
